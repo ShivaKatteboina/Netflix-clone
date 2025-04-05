@@ -4,9 +4,7 @@ Overview
 A Netflix clone built using HTML and CSS that replicates the Netflix homepage, featuring sections for movies, TV shows, interactive FAQs, language selection, and email entry for membership.
 
 Features
-Responsive design: Works on both mobile and desktop screens.
-
-Interactive FAQ section: Click to view answers.
+Responsive design: Works on both mobile and desktop screen.
 
 Language selection: Option to toggle between English and Hindi.
 
