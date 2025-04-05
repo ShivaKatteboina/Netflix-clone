@@ -1,0 +1,39 @@
+body{
+    height:100%;
+    width:100%;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    
+    .container {
+        width: 300px; 
+        margin:auto;
+        padding: 20px;
+        background-color:rgb(42, 39, 39);
+    }
+       
+        
+        .registration-form { display: flex;
+        flex-direction: column;
+        }
+        
+        label {
+        margin-top: 10px;
+        }
+        
+        input {
+        padding: 8px;
+        margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;
+        }
+        
+        button {
+        padding: 10px;
+        background-color: #4caf50; color: #fff;
+        border: none; border-radius: 4px; cursor: pointer;
+        }
+        
+        button:hover {
+        background-color: #45a049;
+        }
+        

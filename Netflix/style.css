@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    background-image: url("bg.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.box {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin:auto;
+}
+
+.nav img {
+    position: relative;
+    color: rgba(255, 0, 0, 1);
+    height: 4rem;
+}
+.nav-cont{
+    display:flex;
+    align-items:center;
+}
+.lang {
+    padding: .35rem 2rem;
+    border: 1px solid gray;
+    border-radius: 1.5rem;
+    padding: .35rem 1rem;
+    background-color: black;
+    cursor: pointer;
+}
+.lang select,i{
+    font-size: 1.25rem;
+    background-color: rgba(0, 0, 0, 0.788);
+    color: white;
+    border:none;
+    outline: none;
+    cursor:pointer;
+}
+
+.signin button {
+    color: black;
+    background-color: white;
+}
+
+.nav-cont button{
+    font-size: 1.25rem;
+    border: 1px solid gray;
+    border-radius: 1.5rem;
+    padding: .35rem 2rem;
+}
+
+.text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text p {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.text span {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.mail input,button1 {
+    margin-top:2rem;
+    padding: 1.5rem 0.5rem 1rem;
+    border-radius: 4rem;
+}
+
+.mail input {
+    background-color: rgb(65, 63, 63);
+    color: white;
+    width: 24vw;
+}
+
+.mail button1{
+    background-color: red;
+    color: white;
+    width: 16vw;
+    padding-top: 1.25rem;
+    font-size: 1.25rem;
+}
+
+.line {
+    height: 11px;
+    background-color: grey;
+}
+
+.firstsec {
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+}
+.tv{
+    width:40vw;
+    display:flex;
+    align-items: center;
+    position:relative;
+}
+.tv img{
+    width:40vw;
+    z-index:2;
+}
+.tv video {
+    width:31vw;
+    position: absolute;
+    top:0.2vh;
+    right:4.24vw;
+}
+
+.seccontent {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccontent a {
+    font-size: 3rem;
+}
+
+.seccontent p {
+    font-size: 1.25rem;
+}
+
+.secimg2 img {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.faq {
+    width: 80vw;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.faq h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem 0rem;
+}
+
+.faqcont {
+    padding: 1rem;
+    background-color: rgba(128, 128, 128, 0.347);
+    justify-content: space-between;
+    display: flex;
+    border-radius: .5rem;
+    margin-bottom: .75rem;
+    cursor: pointer;
+}
+
+.a2 {
+    margin-top: 2rem;
+}
+
+.mail2 {
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+
+.faqcont:hover {
+    background-color: grey;
+}
+
+.footer {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    color: grey;
+}
+
+.cont1 a {
+    display: block;
+    padding: .5rem 0rem;
+    text-decoration: underline;
+}
+
+.contact {
+    width: 80vw;
+    height: 15vh;
+    color: grey;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.least {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    margin:10vh 15vw;
+    
+}
+
+.india {
+    width: 70vw;
+    margin: auto;
+    color: grey;
+    margin-bottom: 10vh;
+}
